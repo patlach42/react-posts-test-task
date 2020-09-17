@@ -5,7 +5,6 @@ import {
   Route,
 } from "react-router-dom";
 
-import './App.css';
 import PostAddPage from './Pages/PostAddPage.js'
 import PostListPage from './Pages/PostListPage.js'
 
