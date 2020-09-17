@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 
 import './App.css';
-import AddPage from './Pages/AddPage.js'
+import PostAddPage from './Pages/PostAddPage.js'
 import PostListPage from './Pages/PostListPage.js'
 
 
@@ -18,7 +18,7 @@ function App() {
           <PostListPage />
         </Route>
         <Route path="/add">
-          <AddPage />
+          <PostAddPage />
         </Route>
       </Switch>
     </Router>

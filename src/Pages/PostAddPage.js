@@ -4,7 +4,7 @@ import { useObserver, useLocalStore } from 'mobx-react'
 import axios from 'axios';
 
 
-function AddPage() {
+function PostAddPage() {
   const history = useHistory();
   const addFormData = useLocalStore(() => ({ userId: '', title: '', body: '' }));
 
@@ -44,4 +44,4 @@ function AddPage() {
   ));
 }
 
-export default AddPage;
+export default PostAddPage;
